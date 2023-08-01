@@ -26,8 +26,6 @@ void main() async {
   bool? onBoarding = CacheHelper.getData(key: 'onBoarding');
 
   Widget startWidget;
-  printStatement('Welcome');
-  printStatement('Developers');
 
   if (onBoarding != null) {
     if (token != null) {
